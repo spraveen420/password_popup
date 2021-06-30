@@ -37,5 +37,9 @@ export class AppComponent implements OnInit {
   popoverOff(popover) {
     popover.close();
   }
+
+  onSubmit() {
+    window.alert("Password popover working fine");
+  }
   
 }

@@ -38,4 +38,11 @@
       </mat-error>
     </mat-form-field>
   </div>
+  <button mat-raised-button
+                color="primary"
+                [disabled]="forgotPasswordFormGroup.invalid"
+                (click) = "onSubmit()">
+                <mat-icon>send</mat-icon>
+                Submit
+        </button>
 </form>
